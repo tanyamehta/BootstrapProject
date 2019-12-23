@@ -1,0 +1,203 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat-bold";
+}
+
+ /************Headings********************/
+ .big-heading{
+   font-family: Montserrat;
+   font-size: 3.5rem;
+   line-height: 1.5;
+   color: white;
+   font-weight: 900;
+ }
+
+ .section-heading{
+   font-size: 3rem;
+   font-weight: 900;
+   line-height: 1.5;
+ }
+
+/* Title section */
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.iphone-class {
+  margin-top: 10px;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+.div1 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link
+{
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family : Montserrat-light;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+/* Features */
+
+.features-title{
+  font-family: "Montserrat-bold";
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.features-para
+{
+  color: #8f8f8f;
+}
+.features-i{
+  color: #ef8172;
+  margin: 10px 40px;
+
+}
+.features-i:hover{
+  color: #ff4c68
+}
+#features{
+  padding:  7% 15% ;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.features-div
+{
+  padding: 5%;
+}
+
+/* Testimonials */
+
+#testimonials{
+  background-color:  #ef8172;
+  color: #fff;
+}
+
+.testimonial-image{
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item
+{
+  padding: 7% 15%;
+}
+
+.testimonial-text{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+/* press */
+
+#press{
+  background-color:  #ef8172;
+  padding: 5% 7%;
+  }
+
+.press-image{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing{
+  padding: 100px;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+.price-text{
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+
+
+/* cta section */
+
+#cta{
+  background-color: #ff4c68;
+  font-family: Montserrat;
+  font-weight: 900;
+  padding: 7% 22%;
+  line-height: 1.5;
+  color: #fff;
+
+
+}
+
+
+/* footer section */
+
+#footer{
+
+  margin: 7%;
+
+}
+.footer-p{
+  padding: 1%;
+}
+
+.footer-icon{
+  margin: 0 8px;
+}
+
+@media (max-width:1134px) {
+
+
+  #title{
+    text-align: center;
+  }
+
+
+}
+
+@media (max-width:991px)  {
+  .iphone-class{
+    position: static;
+    transform: rotate(0);
+  }
+
+
+}
